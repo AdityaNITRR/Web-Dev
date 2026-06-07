@@ -1,0 +1,455 @@
+/* universal */
+*{
+    text-decoration: none;
+}
+ html{
+    font-size:62.5%;
+ }
+
+
+
+/* header styles */
+
+/* header first div : logo , links , name */
+.top{
+    border-style: solid;
+    background-color: #053c5e;
+    
+    height:auto;
+    padding-top:1rem;
+    margin-bottom:2rem;
+}
+
+.top-div-1{
+    display:flex;
+    justify-content: center;
+   width:100%;
+    text-align: center;
+    background-color: rgb(246, 248, 250);
+     background-color: cornsilk;
+    height:auto;
+    min-height:auto;
+    flex-grow:1;
+    flex-wrap: wrap;
+    }
+
+.logo{
+    height:14rem;
+    width:14rem;
+    object-fit: contain;
+    
+    flex-wrap: wrap;
+}
+.NIT-name{
+    flex-grow: 1;
+}
+
+.NIT-name h1{
+    font-size:4.5rem;
+    font-weight: 900;
+    color:  #053c5e;
+}
+
+.NIT-name p{
+    font-size:2.5rem;
+}
+/* first nav-bar-styles: links */
+
+.nav1{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    flex-grow:1;
+   
+}
+.nav-bar-1{
+    display: flex;
+     gap:1rem;
+    font-size:2rem;
+    flex-grow:1;
+    margin-left:1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* main nav bar 2: below name and logo*/
+nav .nav-bar-2{
+   display:flex;
+    overflow-x:scroll;
+   width:auto;
+   padding:1rem;
+     list-style: none;
+     justify-content: center;
+    flex-wrap: wrap; 
+}
+
+
+
+
+.nav-bar-2 li a{
+  
+    color:antiquewhite;
+    font-size:2.2rem;
+  
+    height: auto;
+    width:auto;
+    margin-right:2rem;
+    padding-left:1rem;
+    padding-top:1rem;
+    padding-bottom:1rem;
+}
+.nav-bar-2 li a:hover{
+  
+    color:lightcoral;
+  
+}
+
+
+/* MAIN SECTION */
+/* Section-1-image */ 
+.div-image{
+    display: flex;
+    height:auto;
+    width:auto;
+    justify-content: center;
+    margin-bottom:3rem;
+    margin-top:5rem;
+    /* text-align: center; */
+
+}
+
+.image{
+    width:100%;
+    height:100%;
+    border-style: solid;
+    border-color:aquamarine;
+    border-radius:1rem;
+    border-width:2px;
+    
+}
+
+/* current latest links */
+.latest-events-links{
+    display: flex;
+    border-style: solid;
+    border-color: aqua;
+    border-width:1px;
+    height:5rem;
+    margin-bottom:2rem;
+
+}
+
+
+
+/* Hero-Section */
+.hero-section{
+    display:grid;
+   
+    grid-template-columns:repeat(auto-fit,minmax(22rem,1fr));
+    grid-template-rows:auto;
+     padding:2rem;
+    background-color: cornsilk;
+    gap:2rem;
+}
+
+/* Important-links : section 2 links  */
+.section-2-links{
+    display: flexbox;
+    border:solid;
+    height:50rem;
+}
+.important-links{
+    background-color: rgb(35, 236, 146);
+        color:aliceblue;
+        height:38%;
+        margin-bottom:0.4rem;
+        font-size:2rem;
+          padding-top:0.4rem;
+      padding-left:2rem;
+       }
+
+.important-links h2{
+    margin-top: 0;
+}
+.important-links ul li a{
+    color:aliceblue;
+}
+
+.important-links ul li a:hover{
+     color:lightcoral;
+}
+/* Academics */
+.academics{
+    border-style: solid;
+      height:58%;
+      font-size: 2rem;
+      padding-top:0.4rem;
+      padding-left:2rem;
+ background-color:rgb(8, 202, 173);
+        color:aliceblue;
+        
+   
+}
+.academics h2{
+    margin-top: 0;
+    margin-bottom:0;
+}
+.academics ul li a{
+    color:aliceblue;
+}
+
+.academics ul li a:hover{
+     color:lightcoral;
+}
+
+/* Director-section */
+.director{
+display:flex;
+   background-color: honeydew;
+     border:solid;
+       height:100%;
+        height:50rem;
+       margin:0 1rem;
+    }
+
+.director-img{
+    /* border-style: solid; */
+    background-color: rgb(5, 107, 107);
+    width:30%;  
+}
+
+
+.director-description{
+  color:rgb(64, 61, 61);
+    width:70%;
+    font-size:2.5rem;
+      background-color: rgb(90, 228, 182);
+}
+
+.text{
+    height:65%;
+    overflow-y:scroll;
+   }
+
+ .vedio{
+    border-style:solid;
+    background-color: rgb(135, 247, 197);
+    height:50rem;
+  }
+
+
+ /* Section-3:Buttons */
+.navigation-buttons-s3{
+    border-style: solid;
+    margin-top:4rem;
+    border-radius:4px;
+    border-color: aquamarine;
+    display:flex;
+    height:auto;
+    margin-left:auto;
+    margin-right: auto;
+    padding-right:3px;
+    padding-left:3px;
+     background-color: cornsilk;
+justify-content:center;
+     align-items: center;
+ flex-wrap: wrap;
+     
+ }
+.campus-tour , .mis , .result , .gallery , .downloads , .student , .recruit , .circular , .admission{
+   
+     background-color: darkmagenta;
+     color:aliceblue;
+    border-radius:8px;
+    height:15rem;
+    align-self: center;
+    margin:1.5rem 1rem;
+    padding:1rem;
+    width:18rem;
+    text-align: center;
+    flex-shrink:1;
+    
+ }
+
+ .campus-tour:hover , .mis:hover , .result:hover , .gallery:hover , .downloads:hover , .student:hover , .recruit:hover , .circular:hover , .admission:hover{
+   
+     transform: translateY(-10px);
+ }
+
+ 
+ .mis{
+
+   
+     background-color: brown;
+     color:aliceblue;
+}
+
+.mis a{
+    font-size:3rem;
+    color:antiquewhite
+}
+
+
+ .result{
+ background-color: darkmagenta;
+  background-color: crimson;
+ 
+     /* border-radius:8px;
+    height:82%; */
+    /* margin-left:6px;
+    margin-top:4px;
+    margin-left:2px; */
+    /* padding:5px; */
+    /* width:calc(100%/10);
+     text-align: center;  */
+ }
+
+ .gallery{
+     background-color: goldenrod;
+      background-color: indianred;
+     /* border-radius:8px;
+    height:82%; */
+    /* margin-left:6px;
+    margin-top:4px;
+    margin-left:2px; */
+    /* padding:5px; */
+    /* width:calc(100%/10);
+     text-align: center; */
+ }
+
+ .downloads{
+   
+       background-color: hotpink;
+     /* border-radius:8px;
+    height:82%; */
+    /* margin-left:6px;
+    margin-top:4px;
+    margin-left:2px; */
+    /* padding:5px; */
+    /* width:calc(100%/10);
+     text-align: center; */
+ }
+
+ .student{
+    background-color: darksalmon;
+     /* border-radius:8px;
+    height:82%; */
+    /* margin-left:6px;
+    margin-top:4px;
+    margin-left:2px;
+    padding:5px; */
+     /* width:calc(100%/10);
+     text-align: center; */
+
+ } 
+
+ .recruit{
+    background-color: mediumseagreen;
+     /* border-radius:8px;
+    height:82%; */
+    /* margin-left:6px;
+    margin-top:4px;
+    margin-left:2px;
+    padding:5px; */
+    /* width:calc(100%/10);
+     text-align: center; */
+ }
+
+ .circular{
+ 
+    flex-wrap: wrap;
+     /* border-radius:8px;
+    height:82%; */
+    /* margin-left:6px;
+    margin-top:4px;
+    margin-left:2px;
+    padding:5px; */
+    /* width:calc(100%/10);
+     text-align: center;; */
+ }
+
+ .admission{
+background-color: limegreen;
+ /* border-radius:8px;
+    height:82%; */
+   
+    /* margin-top:4px;
+    margin-left:2px;
+    margin-right:2px;
+    padding:5px; */
+    /* width:calc(100%/10);
+     text-align: center; */
+ }
+
+.admission a{
+    font-size:3rem;
+    color:antiquewhite
+}
+.downloads a{
+    font-size:3rem;
+    color:antiquewhite
+}
+
+.result a{
+    font-size:3rem;
+    color:antiquewhite
+}
+.recruit a{
+    font-size:3rem;
+    color:antiquewhite
+}
+.gallery a{
+    font-size:3rem;
+    color:antiquewhite
+}
+.campus-tour a{
+    font-size:3rem;
+    color:antiquewhite
+}
+.student a{
+    font-size:3rem;
+    color:antiquewhite
+}
+
+.circular a{
+    font-size:3rem;
+    color:antiquewhite
+}
+ /* Section-4:Notice-Section */
+
+ .notice-section{
+    display:flex;
+    border-style: solid;
+    margin-top:5rem;
+    /* margin-right:2rem;
+    margin-left:2rem; */
+    border-radius:8px;
+    justify-content:center;
+     border-color: aquamarine;
+  
+     height:auto;
+      background-color: cornsilk;
+      flex-wrap: wrap;
+ }
+
+ .announcement , .tender , .notice , .events{
+    border-style: solid;
+    border-width:2px;
+    margin:0.5rem;
+    border-radius:5px;
+    width:calc(100%/4.5);
+    text-align: center;
+    overflow-y: scroll;
+    }
+
+a:hover{
+    color:lightcoral;
+}
+
+    /* Footer-Section */
+
+.bottom{
+    background-color: #053c5e;
+    height:50vh;
+}
